@@ -1,3 +1,8 @@
+---
+title: "重名了改一下"
+date: 2022-03-02T23:34:24+08:00
+---
+
 ### Variable elevation; Event bubble; Prototype
 #### 变量提升
 预解析；变量提升到最上面，值不变；只有有作用域的位置才会发生变量提升。  

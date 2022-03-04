@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript相关 on Hugo Relearn Theme</title>
+    <link>/javascript%E7%9B%B8%E5%85%B3/</link>
+    <description>Recent content in JavaScript相关 on Hugo Relearn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 02 Mar 2022 23:34:24 +0800</lastBuildDate><atom:link href="/javascript%E7%9B%B8%E5%85%B3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Theme tutorial</title>
+      <link>/javascript%E7%9B%B8%E5%85%B3/es6/es6-demo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/javascript%E7%9B%B8%E5%85%B3/es6/es6-demo/</guid>
+      <description> title: &amp;ldquo;ES6版选项卡&amp;rdquo; date: 2022-03-02T23:34:24+08:00 ES6版选项卡 ES6 AJAX function ajax(url){return new Promise((succ,error)=&amp;gt;{var ajax= new XMLHttpRequest();ajax.open(&#39;get&#39;,url,true);ajax.send;ajax.onload=function(){succ(ajsx.responseText);};ajax.onerror=function(){error();};}).then((text)=&amp;gt;{cosole.log(text);}).catch(()=&amp;gt;{console.log(1);})}</description>
+    </item>
+    <item>
+      <title>Promise</title>
+      <link>/javascript%E7%9B%B8%E5%85%B3/es6/es6-promise%E5%AF%B9%E8%B1%A1/</link>
+      <pubDate>Wed, 02 Mar 2022 23:34:24 +0800</pubDate>
+      <guid>/javascript%E7%9B%B8%E5%85%B3/es6/es6-promise%E5%AF%B9%E8%B1%A1/</guid>
+      <description>Promise promise是个对象
+只要触发就完成了任务结束生命周期。 可以无限回调
+new Promise(function(Resolved,Reject){Resolved();}).then(function(){alert(&#39;成功&#39;)},function(){alert(&#39;失败&#39;)})function showPromise(res){return new Promise((resolve,reject)=&amp;gt;{resolved(res)}).then ((x)=&amp;gt;{console.log(x)},()=&amp;gt;{})}showPromise(&#39;yours&#39;);实现点击显示循环
+let index=0;ipt.onclick=x=&amp;gt;{index++;new Promise((succ,error)=&amp;gt;{index%2==1?succ();error();}).then(()=&amp;gt;{div1.style.display=&#39;none&#39;;},()=&amp;gt;{div1.style.display=&#39;block&#39;;})};then(成功函数).catch(失败函数)
+throw 抛出异常
+race 竞速方法 只看第一个执行完成的promise
+all 要不然就是全胜要么全部失败，全部成功就全部输出
+Webwork </description>
+    </item>
+  </channel>
+</rss>

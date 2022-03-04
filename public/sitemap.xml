@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://p7pper356.top/</loc>
-    <lastmod>2022-03-01T02:55:20+08:00</lastmod>
-  </url><url>
-    <loc>http://p7pper356.top/post/javascript/</loc>
-    <lastmod>2022-03-01T02:55:20+08:00</lastmod>
-  </url><url>
-    <loc>http://p7pper356.top/post/</loc>
-    <lastmod>2022-03-01T02:55:20+08:00</lastmod>
-  </url><url>
-    <loc>http://p7pper356.top/post/a/</loc>
-  </url><url>
-    <loc>http://p7pper356.top/categories/</loc>
-  </url><url>
-    <loc>http://p7pper356.top/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>en/sitemap.xml</loc>
+    
+      <lastmod>2022-03-02T23:35:03+08:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>pir/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>

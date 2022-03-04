@@ -1,3 +1,14 @@
++++
+tags = ["tutorial", "theme"]
+title = "Theme tutorial"
+weight = 15
++++
+
+---
+title: "ES6版选项卡"
+date: 2022-03-02T23:34:24+08:00
+---
+
 ### ES6版选项卡
 ### ES6 AJAX
 ```

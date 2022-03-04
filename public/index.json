@@ -1,0 +1,110 @@
+[
+  {
+    "content": "Chapter 1 Basic Lorem Ipsum.\n",
+    "description": "",
+    "tags": null,
+    "title": "Basics",
+    "uri": "/basics/"
+  },
+  {
+    "content": "Chapter X Some Chapter title Lorem Ipsum.\n",
+    "description": "",
+    "tags": null,
+    "title": "JavaScript相关",
+    "uri": "/javascript%E7%9B%B8%E5%85%B3/"
+  },
+  {
+    "content": " title: “ES6版选项卡” date: 2022-03-02T23:34:24+08:00 ES6版选项卡 ES6 AJAX function ajax(url){\rreturn new Promise((succ,error)=\u003e{\rvar ajax= new XMLHttpRequest();\rajax.open('get',url,true);\rajax.send;\rajax.onload=function(){\rsucc(ajsx.responseText);\r};\rajax.onerror=function(){\rerror();\r};\r}).then((text)=\u003e{\rcosole.log(text);\r}).catch(()=\u003e{\rconsole.log(1);\r})\r}\r",
+    "description": "",
+    "tags": [
+      "tutorial",
+      "theme"
+    ],
+    "title": "Theme tutorial",
+    "uri": "/javascript%E7%9B%B8%E5%85%B3/es6/es6-demo/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Hugo Relearn Theme",
+    "uri": "/"
+  },
+  {
+    "content": "this fold is under basic ##Be happy\nno one can harm you! ",
+    "description": "",
+    "tags": null,
+    "title": "Second Content",
+    "uri": "/basics/second-content/"
+  },
+  {
+    "content": "Basic下的一篇文章 我只想看看他有没有。\n",
+    "description": "",
+    "tags": null,
+    "title": "First Content",
+    "uri": "/basics/second-content/first-content/"
+  },
+  {
+    "content": "Variable elevation; Event bubble; Prototype 变量提升 预解析；变量提升到最上面，值不变；只有有作用域的位置才会发生变量提升。\nJS的变量具有唯一性，变量提升的变量会覆盖掉前面的定义值。\n函数的变量提升优先级次于变量。函数变量提升的值可以提升。\n事件冒泡 子级元素会继承父级元素的事件。\nevent.cancelBubble=true; 阻止事件冒泡,防止父级的事件到子级中。\n原型 原型链给原型加方法。\n原型可以用json的方法去赋予。\n\u003c!DOCTYPE html\u003e\r\u003chtml lang=\"en\"\u003e\r\u003chead\u003e\r\u003cmeta charset=\"UTF-8\"\u003e\r\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003e\r\u003cmeta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\"\u003e\r\u003ctitle\u003eDocument\u003c/title\u003e\r\u003c/head\u003e\r\u003cbody\u003e\r\u003cscript type=\"text/javascript\"\u003e\rArray.prototype.zs=function(){\ralert(this);\r};\r[1,2,3].zs();\rFunction.prototype.zs=function(){\ralert(\"dont speak now\");\r};\rfunction a(){};\ra.zs();\r\u003c/script\u003e\r\u003c/body\u003e\r\u003c/html\u003e\r继承原型 a.prototype=b.prototype more definited you can set a.prototype.nn=b.prototype.nn\nnew a().nn()\njson的方法赋值 a.prototype={\r'mm':function(){\ralert(this.a+this.b);\r},\r'nn':function(){\ralert(2);\r}\r}\rAJAX(AHR) get\npost\n同步\n异步\n后台语言： php .net java nodeJS\n服务器的状态码：2成功；3重定向；4失败\n状态码：怎么把responseText弄出来\najax readyState\n0 - (未初始化)还没有调用send()方法\r1 - (载入)已调用send()方法，正在发送请求\r2 - (载入完成)send()方法执行完成，\r3 - (交互)正在解析响应内容\r4 - (完成)响应内容解析完成，可以在客户端调用了\rajax.onreadystatechange=function(){\rif(ajax.readyState==4){\rconsole.log(ajax.responseText)\rconsole.log(ajax.status)\r}\r// console.log('ajax.readyState');\r}\rnodeJS优点：\n nodeJS 比 php快86倍 VUE和REACT都基于nodeJS 基于cmd，编译型语言非内置  第一个nodejs脚本 var http= require('http');\rhttp.createServer(function(request,response){\rconsole.log(request.url);\r}).listen(9217);\r// 返回监听的9217端口的url\rvar http= require('http');\rhttp.createServer(function(request,response){\r// console.log(request.url);\rresponse.setHeader('Access-Control-Allow-Origin','*')\r\u003c!-- 实现跨域 --\u003e\rconsole.log('sb coming');\r// 只要有请求来控制台就会输出提示\rresponse.write('Im LauYing');\rresponse.end();\r}).listen(9217);\r前端脚本 var ajax= new XMLHttpRequest();\rajax.open('get','http://localhost:9217/',false);\r// 新建一个和后台服务器交换数据的对象，打开一个本地的端口，同步干完一条命令才下一条，异步分开干。\rajax.send();\rconsole.log(ajax.responseText)\r",
+    "description": "",
+    "tags": null,
+    "title": "java学习",
+    "uri": "/post/second-content/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Posts",
+    "uri": "/post/"
+  },
+  {
+    "content": "Promise promise是个对象\n只要触发就完成了任务结束生命周期。 可以无限回调\nnew Promise(function(Resolved,Reject){\rResolved();\r}).then(function(){\ralert('成功')\r},function(){\ralert('失败')\r})\rfunction showPromise(res){\rreturn new Promise((resolve,reject)=\u003e{\rresolved(res)\r}).then ((x)=\u003e{console.log(x)},()=\u003e{\r})\r}\rshowPromise('yours');\r实现点击显示循环\nlet index=0;\ript.onclick=x=\u003e{\rindex++;\rnew Promise((succ,error)=\u003e{\rindex%2==1?succ();error();\r}).then(()=\u003e{\rdiv1.style.display='none';\r},()=\u003e{\rdiv1.style.display='block';\r})\r};\rthen(成功函数).catch(失败函数)\nthrow 抛出异常\nrace 竞速方法 只看第一个执行完成的promise\nall 要不然就是全胜要么全部失败，全部成功就全部输出\nWebwork ",
+    "description": "",
+    "tags": null,
+    "title": "Promise",
+    "uri": "/javascript%E7%9B%B8%E5%85%B3/es6/es6-promise%E5%AF%B9%E8%B1%A1/"
+  },
+  {
+    "content": "Variable elevation; Event bubble; Prototype 变量提升 预解析；变量提升到最上面，值不变；只有有作用域的位置才会发生变量提升。\nJS的变量具有唯一性，变量提升的变量会覆盖掉前面的定义值。\n函数的变量提升优先级次于变量。函数变量提升的值可以提升。\n事件冒泡 子级元素会继承父级元素的事件。\nevent.cancelBubble=true; 阻止事件冒泡,防止父级的事件到子级中。\n原型 原型链给原型加方法。\n原型可以用json的方法去赋予。\n\u003c!DOCTYPE html\u003e\r\u003chtml lang=\"en\"\u003e\r\u003chead\u003e\r\u003cmeta charset=\"UTF-8\"\u003e\r\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003e\r\u003cmeta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\"\u003e\r\u003ctitle\u003eDocument\u003c/title\u003e\r\u003c/head\u003e\r\u003cbody\u003e\r\u003cscript type=\"text/javascript\"\u003e\rArray.prototype.zs=function(){\ralert(this);\r};\r[1,2,3].zs();\rFunction.prototype.zs=function(){\ralert(\"dont speak now\");\r};\rfunction a(){};\ra.zs();\r\u003c/script\u003e\r\u003c/body\u003e\r\u003c/html\u003e\r继承原型 a.prototype=b.prototype more definited you can set a.prototype.nn=b.prototype.nn\nnew a().nn()\njson的方法赋值 a.prototype={\r'mm':function(){\ralert(this.a+this.b);\r},\r'nn':function(){\ralert(2);\r}\r}\rAJAX(AHR) get\npost\n同步\n异步\n后台语言： php .net java nodeJS\n服务器的状态码：2成功；3重定向；4失败\n状态码：怎么把responseText弄出来\najax readyState\n0 - (未初始化)还没有调用send()方法\r1 - (载入)已调用send()方法，正在发送请求\r2 - (载入完成)send()方法执行完成，\r3 - (交互)正在解析响应内容\r4 - (完成)响应内容解析完成，可以在客户端调用了\rajax.onreadystatechange=function(){\rif(ajax.readyState==4){\rconsole.log(ajax.responseText)\rconsole.log(ajax.status)\r}\r// console.log('ajax.readyState');\r}\rnodeJS优点：\n nodeJS 比 php快86倍 VUE和REACT都基于nodeJS 基于cmd，编译型语言非内置  第一个nodejs脚本 var http= require('http');\rhttp.createServer(function(request,response){\rconsole.log(request.url);\r}).listen(9217);\r// 返回监听的9217端口的url\rvar http= require('http');\rhttp.createServer(function(request,response){\r// console.log(request.url);\rresponse.setHeader('Access-Control-Allow-Origin','*')\r\u003c!-- 实现跨域 --\u003e\rconsole.log('sb coming');\r// 只要有请求来控制台就会输出提示\rresponse.write('Im LauYing');\rresponse.end();\r}).listen(9217);\r前端脚本 var ajax= new XMLHttpRequest();\rajax.open('get','http://localhost:9217/',false);\r// 新建一个和后台服务器交换数据的对象，打开一个本地的端口，同步干完一条命令才下一条，异步分开干。\rajax.send();\rconsole.log(ajax.responseText)\r",
+    "description": "",
+    "tags": null,
+    "title": "重名了改一下",
+    "uri": "/post/a/"
+  },
+  {
+    "content": "我就想看看没有文件夹能否显示子页面。\n",
+    "description": "",
+    "tags": null,
+    "title": "JavaScript",
+    "uri": "/post/javascript/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Categories",
+    "uri": "/categories/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "Tags",
+    "uri": "/tags/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "theme",
+    "uri": "/tags/theme/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "tutorial",
+    "uri": "/tags/tutorial/"
+  }
+]
