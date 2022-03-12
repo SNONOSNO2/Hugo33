@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>java学习 on Hugo Relearn Theme</title>
+    <title>java学习 on DSF</title>
     <link>/post/second-content/</link>
-    <description>Recent content in java学习 on Hugo Relearn Theme</description>
+    <description>Recent content in java学习 on DSF</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 02 Mar 2022 23:34:24 +0800</lastBuildDate><atom:link href="/post/second-content/index.xml" rel="self" type="application/rss+xml" />
   </channel>
