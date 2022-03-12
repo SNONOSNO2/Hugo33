@@ -24,14 +24,14 @@ defaultContentLanguage = "en"
 
 [Languages]
 [Languages.en]
-title = "Hugo Relearn Theme"
+title = "DSF"
 weight = 1
 languageName = "English"
 
 [Languages.pir]
-title = "Cap'n Hugo Relearrrn Theme"
+title = "DSF"
 weight = 2
-languageName = "Arrr! Pirrrates"
+languageName = "Chinese"
 
 
 [[menu.shortcuts]]
