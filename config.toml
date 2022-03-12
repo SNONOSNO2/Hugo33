@@ -1,5 +1,5 @@
 # change the default theme to be use when building the site with Hugo
-theme = "DSF SITE-Do Something Fun"
+theme = "relearn"
 
 # For search functionality
 [outputs]
