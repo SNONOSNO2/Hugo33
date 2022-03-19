@@ -1,0 +1,13 @@
+/* my-custom-variant */
+:root {
+  --BOX-BLUE-color: #FFB13D; /* background color of blue boxes */
+  --BOX-GREEN-color: #643DFF; /* background color of green boxes */
+  --CODE-BLOCK-BORDER-color: #d8d8d8; /* border color of block code */
+  --CODE-INLINE-BORDER-color: #f8e8c8; /* border color of inline code */
+  --MAIN-LINK-color: #FF643D; /* link color of content */
+  --MAIN-LINK-HOVER-color: #643DFF; /* hoverd link color of content */
+  --MENU-HEADER-BG-color: #F57A00; /* background color of menu header */
+  --MENU-HEADER-BORDER-color: #FFB13D; /* separator color of menu header */
+  --MENU-SEARCH-BORDER-color: #e0e0e0; /* border color of search box */
+  --MENU-SECTIONS-LINK-HOVER-color: #ffffff; /* hoverd link color of menu topics */
+}
