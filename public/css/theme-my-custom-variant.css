@@ -1,4 +1,5 @@
 /* my-custom-variant */
+@import "chroma-my-custom-variant.css";
 :root {
   --BOX-BLUE-color: #FFB13D; /* background color of blue boxes */
   --BOX-GREEN-color: #643DFF; /* background color of green boxes */
