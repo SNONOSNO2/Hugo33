@@ -11,7 +11,7 @@ alwaysopen = true
 
 
 # Change default color scheme with a variant one.
-themeVariant = [ "relearn-light", "relearn-dark" ]
+themeVariant = [ "relearn-light", "relearn-dark","my-custom-variant" ]
 
 
 # [Languages]
