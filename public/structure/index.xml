@@ -5,7 +5,18 @@
     <link>/structure/</link>
     <description>Recent content in Structures on DSF</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 12 Mar 2022 12:00:36 +0800</lastBuildDate><atom:link href="/structure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Mar 2022 13:13:12 +0800</lastBuildDate><atom:link href="/structure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ClassA and ClassB</title>
+      <link>/structure/classa-and-classb/</link>
+      <pubDate>Sat, 19 Mar 2022 13:13:12 +0800</pubDate>
+      <guid>/structure/classa-and-classb/</guid>
+      <description>Structural insights into differences in G protein activation by family A and family B GPCRs A class和B class的GPCRs如何不同样激活G蛋白
+heterotrimeric guanine nucleotide–binding protein (G protein) 异源三聚体鸟苷酸结合蛋白
+GPCR激活hallmark： outward movement of the cytoplasmic end of transmembrane domain 6 (TM6)，opens up an intracellular cavity to accommodate the Gα subunit 在细胞质的TM6跨膜区会向外扩展，打开了一个细胞内的空腔来容纳Ga亚基。
+A/B GPCRs的差别：
+In family B GPCRs, TM6 shows a disruption of the helical fold and the formation of a sharp kink. This differs from the gradual bending in TM6 observed in family A GPCRs.</description>
+    </item>
     <item>
       <title>M3 Muscarinic Acetylcholine Receptors Overview</title>
       <link>/structure/m3-muscarinic-acetylcholine-receptors-overview/</link>

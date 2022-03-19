@@ -12,8 +12,12 @@
     <loc>/javascript%E7%9B%B8%E5%85%B3/es6/es6-demo/</loc>
   </url>
   <url>
+    <loc>/structure/classa-and-classb/</loc>
+    <lastmod>2022-03-19T13:13:12+08:00</lastmod>
+  </url>
+  <url>
     <loc>/</loc>
-    <lastmod>2022-03-12T18:10:08+08:00</lastmod>
+    <lastmod>2022-03-19T13:13:12+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pir"
@@ -26,6 +30,10 @@
                 />
   </url>
   <url>
+    <loc>/structure/</loc>
+    <lastmod>2022-03-19T13:13:12+08:00</lastmod>
+  </url>
+  <url>
     <loc>/python/</loc>
     <lastmod>2022-03-12T18:10:08+08:00</lastmod>
   </url>
@@ -35,10 +43,6 @@
   </url>
   <url>
     <loc>/structure/m3-muscarinic-acetylcholine-receptors-overview/</loc>
-    <lastmod>2022-03-12T12:00:36+08:00</lastmod>
-  </url>
-  <url>
-    <loc>/structure/</loc>
     <lastmod>2022-03-12T12:00:36+08:00</lastmod>
   </url>
   <url>
