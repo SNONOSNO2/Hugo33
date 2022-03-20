@@ -11,7 +11,8 @@ alwaysopen = true
 
 
 # Change default color scheme with a variant one.
-themeVariant = [ "relearn-light","relearn-dark","neon","blue","green","learn" ]
+# themeVariant = [ "relearn-light","relearn-dark","neon","blue","green","learn" ]
+themeVariant = "gobolinux"
 
 
 # [Languages]
