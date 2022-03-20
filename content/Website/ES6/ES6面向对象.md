@@ -1,4 +1,8 @@
-### 面对对象
+---
+title: "面对对象"
+date: 2022-03-02T23:34:24+08:00
+---
+ 
 #### 类
 window-string-substring/indexof(方法)    
 -number-tostring

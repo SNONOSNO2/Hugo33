@@ -1,6 +1,6 @@
 +++
-tags = ["tutorial", "theme"]
-title = "Theme tutorial"
+tags = ["ES6"]
+title = "ES6版选项卡"
 weight = 15
 +++
 
