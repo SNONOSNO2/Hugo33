@@ -1,19 +1,19 @@
 /* Main color scheme */
 :root {
     /* General */
-    --MAIN-BG-color: #202020; /* Background color of main content */
-    --MAIN-TEXT-color: #fff; /* Color of text by default */
+    --MAIN-BG-color: #ffffff; /* Background color of main content */
+    --MAIN-TEXT-color: #323232; /* Color of text by default */
     --MAIN-LINK-color: #00a3f3; /* Color of links */
-    --MAIN-LINK-HOVER-color: #7bc5eb; /* Color of hovered links */
+    --MAIN-LINK-HOVER-color: #0082a7; /* Color of hovered links */
     --MAIN-ANCHOR-color: #00a3f3; /* color of anchors on headlines */
 
     /* Headlines */
-    --MAIN-TITLES-H1-color: #0060f3; /* Color of h1 headlines */
-    --MAIN-TITLES-H2-color: #f300b2; /* Color of h2 headlines */
+    --MAIN-TITLES-H1-color: #8451a1; /* Color of h1 headlines */
+    --MAIN-TITLES-H2-color: #915eae; /* Color of h2 headlines */
     --MAIN-TITLES-H3-color: #00f3d3; /* Color of h3 headlines */
-    --MAIN-TITLES-H4-color: #ffffff; /* Color of h4 headlines */
-    --MAIN-TITLES-H5-color: #ffffff; /* Color of h5 headlines */
-    --MAIN-TITLES-H6-color: #ffffff; /* Color of h6 headlines */
+    --MAIN-TITLES-H4-color: #323232; /* Color of h4 headlines */
+    --MAIN-TITLES-H5-color: #323232; /* Color of h5 headlines */
+    --MAIN-TITLES-H6-color: #323232; /* Color of h6 headlines */
 
     /* Sidebar */
     --MENU-HEADER-BG-color: #00000000; /* Background color of menu header */
@@ -26,9 +26,9 @@
 
     --MENU-SECTIONS-BG-color: linear-gradient(
         150deg,
-        #8000ffb3 0%,
-        #00bcf4b3 75%,
-        #00ff5ab3 100%
+        #9400D3 0%,
+        #002FA7 75%,
+        #FF5809 100%
     ); /* Background color of side bar */
     --MENU-SECTIONS-ACTIVE-BG-color: #00000033; /* Background color of the active section and its children */
     --MENU-SECTIONS-LINK-color: #fff; /* Color of links in menu */
@@ -42,7 +42,7 @@
     --CODE-INLINE-BG-color: #2d2e33a8; /* Background color of inline code */
 
     /* Notices */
-    --BOX-BG-color: #000;
+    --BOX-BG-color: rgba( 255, 255, 255, .833 );
     --BOX-ORANGE-color: #b97300;
     --BOX-ORANGE-TEXT-color: #ffb200;
     --BOX-BLUE-color: #002cb9;
