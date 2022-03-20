@@ -1,9 +1,9 @@
 ---
-title: "ClassA and ClassB"
+title: "Structural insights into differences in G protein activation by family A and family B GPCRs"
 date: 2022-03-19T13:13:12+08:00
 ---
 
-# Structural insights into differences in G protein activation by family A and family B GPCRs
+
 A class和B class的GPCRs如何不同样激活G蛋白
 
 heterotrimeric guanine nucleotide–binding protein **(G protein)** 异源三聚体鸟苷酸结合蛋白
