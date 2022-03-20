@@ -3,37 +3,37 @@
     /* General */
     --MAIN-BG-color: #ffffff; /* Background color of main content */
     --MAIN-TEXT-color: #323232; /* Color of text by default */
-    --MAIN-LINK-color: #00a3f3; /* Color of links */
-    --MAIN-LINK-HOVER-color: #0082a7; /* Color of hovered links */
-    --MAIN-ANCHOR-color: #00a3f3; /* color of anchors on headlines */
+    --MAIN-LINK-color: #002FA7; /* Color of links */
+    --MAIN-LINK-HOVER-color: #002FA7; /* Color of hovered links */
+    --MAIN-ANCHOR-color: #002FA7; /* color of anchors on headlines */
 
     /* Headlines */
-    --MAIN-TITLES-H1-color: #8451a1; /* Color of h1 headlines */
-    --MAIN-TITLES-H2-color: #915eae; /* Color of h2 headlines */
-    --MAIN-TITLES-H3-color: #00f3d3; /* Color of h3 headlines */
+    --MAIN-TITLES-H1-color: #002FA7; /* Color of h1 headlines */
+    --MAIN-TITLES-H2-color: #002FA7; /* Color of h2 headlines */
+    --MAIN-TITLES-H3-color: #002FA7; /* Color of h3 headlines */
     --MAIN-TITLES-H4-color: #323232; /* Color of h4 headlines */
     --MAIN-TITLES-H5-color: #323232; /* Color of h5 headlines */
     --MAIN-TITLES-H6-color: #323232; /* Color of h6 headlines */
 
     /* Sidebar */
     --MENU-HEADER-BG-color: #00000000; /* Background color of menu header */
-    --MENU-SEARCH-BG-color: #167ad0; /* Search field background color */
+    --MENU-SEARCH-BG-color:#0094ff; /* Search field background color */
     --MENU-SEARCH-BORDER-color: unset; /* Search field border color */
-    --MENU-SEARCH-BOX-ICONS-color: #a1d2fd; /* Search field icons color */
+    --MENU-SEARCH-BOX-ICONS-color: #ffffff; /* Search field icons color */
 
     --MENU-SECTION-ACTIVE-CATEGORY-color: #fff; /* Color of active category text */
     --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #ffffff1c; /* Color of background for the active category */
 
     --MENU-SECTIONS-BG-color: linear-gradient(
         150deg,
-        #9400D3 0%,
+        #002FA7 0%,
         #002FA7 75%,
-        #FF5809 100%
+        #002FA7 100%
     ); /* Background color of side bar */
     --MENU-SECTIONS-ACTIVE-BG-color: #00000033; /* Background color of the active section and its children */
     --MENU-SECTIONS-LINK-color: #fff; /* Color of links in menu */
     --MENU-SECTIONS-LINK-HOVER-color: #cfcfcf; /* Color of links in menu, when hovered */
-    --MENU-VISITED-color: #33a1ff; /* Color of 'page visited' icons in menu */
+    --MENU-VISITED-color: #002FA7; /* Color of 'page visited' icons in menu */
 
     /* Code blocks and inline code */
     --CODE-BLOCK-color: #f8f8f2; /* Color of code block font */
