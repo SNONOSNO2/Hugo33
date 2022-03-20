@@ -1,56 +1,68 @@
 /* Main color scheme */
 :root {
     /* General */
-    --MAIN-BG-color: #ffffff; /* Background color of main content */
-    --MAIN-TEXT-color: #323232; /* Color of text by default */
-    --MAIN-LINK-color: #002FA7; /* Color of links */
-    --MAIN-LINK-HOVER-color: #002FA7; /* Color of hovered links */
-    --MAIN-ANCHOR-color: #002FA7; /* color of anchors on headlines */
+     --BOX-BLUE-color: #FFB13D; /* background color of blue boxes */
+  --BOX-GREEN-color: #643DFF; /* background color of green boxes */
+  --CODE-BLOCK-BORDER-color: #d8d8d8; /* border color of block code */
+  --CODE-INLINE-BORDER-color: #f8e8c8; /* border color of inline code */
+  --MAIN-LINK-color: #FF643D; /* link color of content */
+  --MAIN-LINK-HOVER-color: #643DFF; /* hoverd link color of content */
+  --MENU-HEADER-BG-color: #F57A00; /* background color of menu header */
+  --MENU-HEADER-BORDER-color: #FFB13D; /* separator color of menu header */
+  --MENU-SEARCH-BORDER-color: #e0e0e0; /* border color of search box */
+  --MENU-SECTIONS-LINK-HOVER-color: #ffffff; /* hoverd link color of menu topics */
+
+
+    --MAIN-TEXT-color: #101010; /* Color of text by default */
+    --MAIN-TITLES-TEXT-color: #4a4a4a; /* Color of titles h2-h3-h4-h5-h6 */
+    --MAIN-LINK-color: #486ac9; /* Color of links */
+    --MAIN-LINK-HOVER-color: #134fbf; /* Color of hovered links */
+    --MAIN-ANCHOR-color: #134fbf; /* color of anchors on titles */
+    --MAIN-BG-color: #ffffff; /* color of text by default */
+
+    /* adjusted to relearn-light chroma style */
+    --CODE-BLOCK-color: #000000; /* fallback color for block code text */
+    --CODE-BLOCK-BG-color: #f8f8f8; /* fallback color for block code background */
+    --CODE-BLOCK-BORDER-color: #d8d8d8; /* color of block code border */
+
+    --CODE-INLINE-color: #5e5e5e; /* color for inline code text */
+    --CODE-INLINE-BG-color: #fffae9; /* color for inline code background */
+    --CODE-INLINE-BORDER-color: #f8e8c8; /* color of inline code border */
+
+    --MENU-HOME-LINK-color: #323232; /* Color of the home button text */
+    --MENU-HOME-LINK-HOVER-color: #808080; /* Color of the hovered home button text */
+
+    --MENU-HEADER-BG-color: #7dc903; /* Background color of menu header */
+    --MENU-HEADER-BORDER-color: #7dc903; /*Color of menu header border */
+
+    --MENU-SEARCH-color: #e0e0e0; /* Color of search field text */
+    --MENU-SEARCH-BG-color: #323232; /* Search field background color (by default borders + icons) */
+    --MENU-SEARCH-BORDER-color: #e0e0e0; /* Override search field border color */
+
+    --MENU-SECTIONS-ACTIVE-BG-color: rgba( 0, 0, 0, .166 ); /* Background color of the active section and its children */
+    --MENU-SECTIONS-BG-color: #282828; /* Background color of other sections */
+    --MENU-SECTIONS-LINK-color: #bababa; /* Color of links in menu */
+    --MENU-SECTIONS-LINK-HOVER-color: #ffffff;  /* Color of links in menu, when hovered */
+    --MENU-SECTION-ACTIVE-CATEGORY-color: #444444; /* Color of active category text */
+    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #ffffff; /* Color of background for the active category (only) */
+
+    --MENU-VISITED-color: #506397; /* Color of 'page visited' icons in menu */
+    --MENU-SECTION-HR-color: #606060; /* Color of <hr> separator in menu */
+
+    /* base styling for boxes */
+    --BOX-CAPTION-color: rgba( 255, 255, 255, 1 ); /* color of the title text */
+    --BOX-BG-color: rgba( 255, 255, 255, .833 ); /* color of the content background */
+    --BOX-TEXT-color: rgba( 16, 16, 16, 1 ); /* fixed color of the content text */
 
     /* Headlines */
-    --MAIN-TITLES-H1-color: #002FA7; /* Color of h1 headlines */
-    --MAIN-TITLES-H2-color: #002FA7; /* Color of h2 headlines */
-    --MAIN-TITLES-H3-color: #002FA7; /* Color of h3 headlines */
+    --MAIN-TITLES-H1-color: #282a36; /* Color of h1 headlines */
+    --MAIN-TITLES-H2-color: #282a36; /* Color of h2 headlines */
+    --MAIN-TITLES-H3-color: #282a36; /* Color of h3 headlines */
     --MAIN-TITLES-H4-color: #323232; /* Color of h4 headlines */
     --MAIN-TITLES-H5-color: #323232; /* Color of h5 headlines */
     --MAIN-TITLES-H6-color: #323232; /* Color of h6 headlines */
 
-    /* Sidebar */
-    --MENU-HEADER-BG-color: #00000000; /* Background color of menu header */
-    --MENU-SEARCH-BG-color:#0094ff; /* Search field background color */
-    --MENU-SEARCH-BORDER-color: unset; /* Search field border color */
-    --MENU-SEARCH-BOX-ICONS-color: #ffffff; /* Search field icons color */
 
-    --MENU-SECTION-ACTIVE-CATEGORY-color: #fff; /* Color of active category text */
-    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #ffffff1c; /* Color of background for the active category */
-
-    --MENU-SECTIONS-BG-color: linear-gradient(
-        150deg,
-        #002FA7 0%,
-        #002FA7 75%,
-        #002FA7 100%
-    ); /* Background color of side bar */
-    --MENU-SECTIONS-ACTIVE-BG-color: #00000033; /* Background color of the active section and its children */
-    --MENU-SECTIONS-LINK-color: #fff; /* Color of links in menu */
-    --MENU-SECTIONS-LINK-HOVER-color: #cfcfcf; /* Color of links in menu, when hovered */
-    --MENU-VISITED-color: #002FA7; /* Color of 'page visited' icons in menu */
-
-    /* Code blocks and inline code */
-    --CODE-BLOCK-color: #f8f8f2; /* Color of code block font */
-    --CODE-BLOCK-BG-color: #000000; /* Background color of code block */
-    --CODE-INLINE-color: #00f3d3; /* Color of inline code (code enclosed in `single backticks`) */
-    --CODE-INLINE-BG-color: #2d2e33a8; /* Background color of inline code */
-
-    /* Notices */
-    --BOX-BG-color: rgba( 255, 255, 255, .833 );
-    --BOX-ORANGE-color: #b97300;
-    --BOX-ORANGE-TEXT-color: #ffb200;
-    --BOX-BLUE-color: #002cb9;
-    --BOX-BLUE-TEXT-color: #0094ff;
-    --BOX-GREEN-color: #00b901;
-    --BOX-GREEN-TEXT-color: #2bff00;
-    --BOX-RED-color: #b90000;
-    --BOX-RED-TEXT-color: #ff0000;
 }
 
 /* General */
