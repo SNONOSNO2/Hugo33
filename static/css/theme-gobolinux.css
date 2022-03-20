@@ -15,25 +15,20 @@
 
     --MAIN-TEXT-color: #101010; /* Color of text by default */
     --MAIN-TITLES-TEXT-color: #4a4a4a; /* Color of titles h2-h3-h4-h5-h6 */
-    --MAIN-LINK-color: #486ac9; /* Color of links */
-    --MAIN-LINK-HOVER-color: #134fbf; /* Color of hovered links */
     --MAIN-ANCHOR-color: #134fbf; /* color of anchors on titles */
     --MAIN-BG-color: #ffffff; /* color of text by default */
 
     /* adjusted to relearn-light chroma style */
     --CODE-BLOCK-color: #000000; /* fallback color for block code text */
     --CODE-BLOCK-BG-color: #f8f8f8; /* fallback color for block code background */
-    --CODE-BLOCK-BORDER-color: #d8d8d8; /* color of block code border */
+
 
     --CODE-INLINE-color: #5e5e5e; /* color for inline code text */
     --CODE-INLINE-BG-color: #fffae9; /* color for inline code background */
-    --CODE-INLINE-BORDER-color: #f8e8c8; /* color of inline code border */
 
     --MENU-HOME-LINK-color: #323232; /* Color of the home button text */
     --MENU-HOME-LINK-HOVER-color: #808080; /* Color of the hovered home button text */
 
-    --MENU-HEADER-BG-color: #7dc903; /* Background color of menu header */
-    --MENU-HEADER-BORDER-color: #7dc903; /*Color of menu header border */
 
     --MENU-SEARCH-color: #e0e0e0; /* Color of search field text */
     --MENU-SEARCH-BG-color: #323232; /* Search field background color (by default borders + icons) */
