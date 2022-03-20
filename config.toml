@@ -26,6 +26,7 @@ alwaysopen = true
 # landingPageName = "<i class='fas fa-home'></i> Arrr! Homme"
 
 defaultContentLanguage = "en"
+disableLandingPageButton = true
 
 [Languages]
 [Languages.en]
@@ -33,10 +34,6 @@ title = "DSF"
 weight = 1
 languageName = "English"
 
-[Languages.pir]
-title = "DSF"
-weight = 2
-languageName = "Chinese"
 
 
 [[menu.shortcuts]]
