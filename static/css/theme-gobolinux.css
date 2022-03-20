@@ -1,7 +1,7 @@
 /* Main color scheme */
 :root {
     /* General */
-     --BOX-BLUE-color: #FFB13D; /* background color of blue boxes */
+    --BOX-BLUE-color: #FFB13D; /* background color of blue boxes */
   --BOX-GREEN-color: #643DFF; /* background color of green boxes */
   --CODE-BLOCK-BORDER-color: #d8d8d8; /* border color of block code */
   --CODE-INLINE-BORDER-color: #f8e8c8; /* border color of inline code */
@@ -13,7 +13,7 @@
   --MENU-SECTIONS-LINK-HOVER-color: #ffffff; /* hoverd link color of menu topics */
 
 
-    --MAIN-TEXT-color: #101010; /* Color of text by default */
+    --MAIN-TEXT-color:  #282a36; /* Color of text by default */
     --MAIN-TITLES-TEXT-color: #4a4a4a; /* Color of titles h2-h3-h4-h5-h6 */
     --MAIN-ANCHOR-color: #134fbf; /* color of anchors on titles */
     --MAIN-BG-color: #ffffff; /* color of text by default */
@@ -34,8 +34,8 @@
     --MENU-SEARCH-BG-color: #323232; /* Search field background color (by default borders + icons) */
     --MENU-SEARCH-BORDER-color: #e0e0e0; /* Override search field border color */
 
-    --MENU-SECTIONS-ACTIVE-BG-color: rgba( 0, 0, 0, .166 ); /* Background color of the active section and its children */
-    --MENU-SECTIONS-BG-color: #282828; /* Background color of other sections */
+    --MENU-SECTIONS-ACTIVE-BG-color: #F57A00; /* Background color of the active section and its children */
+    --MENU-SECTIONS-BG-color: #FFB13D; /* Background color of other sections */
     --MENU-SECTIONS-LINK-color: #bababa; /* Color of links in menu */
     --MENU-SECTIONS-LINK-HOVER-color: #ffffff;  /* Color of links in menu, when hovered */
     --MENU-SECTION-ACTIVE-CATEGORY-color: #444444; /* Color of active category text */
