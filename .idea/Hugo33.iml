@@ -6,6 +6,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Documentation-master" />
     <orderEntry type="module" module-name="hugo-theme-relearn-5571cdd0c5483617882094af31389805897bbca0" />
+    <orderEntry type="module" module-name="hexo-blog" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="pytest" />
