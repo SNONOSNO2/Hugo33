@@ -1,6 +1,9 @@
 ---
 title: "GTPase-activating proteins (GAP) accelerate the GTP hydrolysis mediated by GTPases"
 date: 2022-03-19T13:13:12+08:00
+weight: 2
+chapter: false
+pre: "<b>2 </b>"
 ---
 
 **GTP酶激活蛋白**加速GTP水解。

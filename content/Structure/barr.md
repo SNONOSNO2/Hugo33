@@ -1,9 +1,11 @@
 ---
 title: "b-arrestin overview"
 date: 2022-03-19T13:13:12+08:00
+weight: 5
+chapter: false
+pre: "<b>5 </b>"
 ---
 
-# b-arrestin overview
 **Abbreviations**
 ```
 cAMP

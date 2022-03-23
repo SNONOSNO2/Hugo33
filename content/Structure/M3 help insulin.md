@@ -1,6 +1,9 @@
 ---
 title: "M3-muscarinic receptor promotes insulin release via receptor phosphorylation/arrestin-dependent activation of protein kinase D1"
 date: 2022-03-19T13:13:12+08:00
+weight: 4
+chapter: false
+pre: "<b>4 </b>"
 ---
 
 
