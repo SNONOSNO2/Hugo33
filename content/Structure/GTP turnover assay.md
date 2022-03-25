@@ -7,7 +7,7 @@ pre: "<b>2 </b>"
 ---
 
 **GTP酶激活蛋白**加速GTP水解。
-![](https://gitee.com/Serenata/picture/raw/master/images/20220322215525.png)
+![](https://s1.328888.xyz/2022/03/25/9Sukq.png)
 **<center>The GTPase cycle</center>**
 
 
@@ -40,10 +40,10 @@ GEFs help in loading of **GDP-bound inactive GTPases(G protein)** with GTP. The 
 1. dilute the GEF to be studied in **GEF Buffer** containing 10μM GTP.
 1. Initiate the GTPase reaction by adding 5μl of the 2X GTPase-GAP solution.
 1. Incubate the reaction at room temperature (22–25°C) for the optimal time, generally 60–120 minutes.
-1. GTPase-GloTM Reagent: ![](https://gitee.com/Serenata/picture/raw/master/images/20220322223619.png)
+1. GTPase-GloTM Reagent: ![](https://s1.328888.xyz/2022/03/25/9NMQ7.png)
 1. Add 10μl of reconstituted **GTPase-GloTM Reagent** to the completed GTPase reaction, mix briefly and incubate with shaking for 30 minutes at room temperature (22–25°C).
 1. Add 20μl of **Detection Reagent**, and incubate the plate for 5–10 minutes at room temperature (22–25°C).
 1. Measure luminescence.
 
 **A positive result:**
-![](https://gitee.com/Serenata/picture/raw/master/images/20220322224652.png)
+![](https://s1.328888.xyz/2022/03/25/9NNHX.png)

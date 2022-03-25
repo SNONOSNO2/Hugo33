@@ -48,7 +48,7 @@ outward movements of TM5 and TM6
 
 native sequence in the N terminus of the peptide, which is important for ligand efficacy保留多肽N端，ZP3780 激活受体能够形成足够稳定的 GCGR-Gs 复合物。胰高血糖素类似物 ZP3780 作为完全激动剂，包括四个 C 末端突变，与野生型 (WT) 胰高血糖素相比，仅略微降低亲和力，同时显示出相似的最大可达到反应 (Emax)。
 
-![](https://gitee.com/Serenata/picture/raw/master/images/20220323113135.png)
+![](https://s1.328888.xyz/2022/03/25/9NoSC.png)
 
 ## Cryo-EM structure of ZP3780-bound GCGR–Gs complex
 
