@@ -7,7 +7,7 @@ pre: "<b>2 </b>"
 ---
 
 **GTP酶激活蛋白**加速GTP水解。
-![](https://s1.328888.xyz/2022/03/25/9Sukq.png)
+![](https://s1.328888.xyz/2022/03/25/9NScZ.png)
 **<center>The GTPase cycle</center>**
 
 
