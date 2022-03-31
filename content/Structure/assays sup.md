@@ -75,7 +75,7 @@ Bodipy-GTPγS是一个不水解的荧光标记的GTP类似物。在溶液中自�
 
 随着时间增加，结合的GTP越多，和G蛋白结合的GTP被保护起来不会淬灭，荧光信号越强。
 
-![](https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/8176638d-2787-41fe-9519-a6722aef5b3d/gr1_lrg.jpg){:height="50%" width="50%"}
+![](https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/8176638d-2787-41fe-9519-a6722aef5b3d/gr1_lrg.jpg)
 
 
 ### DEER
