@@ -44,6 +44,7 @@ create gfp, 3WLD and resi 59-302 （分离两个部分，可以隐藏其中一�
 2. 在ClassB中是`丙氨酸`，hydrophobic pocket less efficiently；在ClassA中是`苯丙氨酸`F139 on ICL2，参与hydrophobic pocket lined by residues from the **αN-β1 loop, the β2-β3 loop, and the α5 helix**
 
 ![](classab.gif)
+{{%attachments style="green" /%}}
 
 ## Assay
 
