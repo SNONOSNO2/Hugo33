@@ -44,6 +44,7 @@ create gfp, 3WLD and resi 59-302 （分离两个部分，可以隐藏其中一�
 > 	后者**α5 helix** to engage the receptor core, and conformational rearrangements in the α1 helix and α5-β6 loop. 产生extensive polar interactions with TM5, TM6, and helix 8 (H8)。
 2. 在ClassB中是`丙氨酸`，hydrophobic pocket less efficiently；在ClassA中是`苯丙氨酸`F139 on ICL2，参与hydrophobic pocket lined by residues from the **αN-β1 loop, the β2-β3 loop, and the α5 helix**
 
+{{%attachments style="green" /%}}
 
 ## Assay
 
