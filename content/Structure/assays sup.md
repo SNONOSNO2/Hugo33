@@ -1,9 +1,10 @@
 ---
-title: "Assays sup"
+title: "Assays Sup"
 date: 2022-03-19T13:13:12+08:00
 chapter: false
 pre: "<b>1.2 </b>"
 ---
+
 ## PDB
 ### 隐藏侧链
 ### 比对结构
