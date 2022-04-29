@@ -1,30 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>JavaScript on DSF</title>
-    <link>/website/javascript/</link>
-    <description>Recent content in JavaScript on DSF</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 02 Mar 2022 23:34:24 +0800</lastBuildDate><atom:link href="/website/javascript/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Variable elevation; Event bubble; Prototype</title>
-      <link>/website/javascript/%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87/</link>
-      <pubDate>Wed, 02 Mar 2022 23:34:24 +0800</pubDate>
-      <guid>/website/javascript/%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87/</guid>
-      <description>变量提升 预解析；变量提升到最上面，值不变；只有有作用域的位置才会发生变量提升。
-JS的变量具有唯一性，变量提升的变量会覆盖掉前面的定义值。
-函数的变量提升优先级次于变量。函数变量提升的值可以提升。
-事件冒泡 子级元素会继承父级元素的事件。
-event.cancelBubble=true; 阻止事件冒泡,防止父级的事件到子级中。
-原型 原型链给原型加方法。
-原型可以用json的方法去赋予。
-&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;&amp;lt;head&amp;gt;&amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;&amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1.0&amp;quot;&amp;gt;&amp;lt;meta http-equiv=&amp;quot;X-UA-Compatible&amp;quot; content=&amp;quot;ie=edge&amp;quot;&amp;gt;&amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;&amp;lt;body&amp;gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;Array.prototype.zs=function(){alert(this);};[1,2,3].zs();Function.prototype.zs=function(){alert(&amp;quot;dont speak now&amp;quot;);};function a(){};a.zs();&amp;lt;/script&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;继承原型 a.prototype=b.prototype more definited you can set a.prototype.nn=b.prototype.nn
-new a().nn()
-json的方法赋值 a.prototype={&#39;mm&#39;:function(){alert(this.a+this.b);},&#39;nn&#39;:function(){alert(2);}}AJAX(AHR) get
-post
-同步
-异步
-后台语言： php .</description>
-    </item>
-  </channel>
-</rss>
