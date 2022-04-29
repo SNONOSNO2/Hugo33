@@ -1,45 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DSF</title>
+    <title>Wiki on DSF</title>
     <link>/</link>
-    <description>Recent content on DSF</description>
+    <description>Recent content in Wiki on DSF</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 19 Mar 2022 13:13:12 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Apr 2022 13:13:12 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Basics</title>
-      <link>/basics/</link>
-      <pubDate>Wed, 02 Mar 2022 23:35:03 +0800</pubDate>
-      <guid>/basics/</guid>
-      <description>Chapter 1 Basic Lorem Ipsum.</description>
-    </item>
-    <item>
-      <title>JavaScript相关</title>
-      <link>/javascript%E7%9B%B8%E5%85%B3/</link>
-      <pubDate>Wed, 02 Mar 2022 23:34:24 +0800</pubDate>
-      <guid>/javascript%E7%9B%B8%E5%85%B3/</guid>
-      <description>Chapter X Some Chapter title Lorem Ipsum.</description>
-    </item>
-    <item>
-      <title>Structures</title>
+      <title>Structure</title>
       <link>/structure/</link>
-      <pubDate>Sat, 19 Mar 2022 13:13:12 +0800</pubDate>
+      <pubDate>Tue, 26 Apr 2022 13:13:12 +0800</pubDate>
       <guid>/structure/</guid>
-      <description></description>
+      <description> Structural insights into differences in G protein activation by family A and family B GPCRs GTPase-activating proteins (GAP) accelerate the GTP hydrolysis mediated by GTPases M3 Muscarinic Acetylcholine Receptors Overview M3-muscarinic receptor promotes insulin release via receptor phosphorylation/arrestin-dependent activation of protein kinase D1 b-arrestin overview sdAb panning Assays Assays Sup  </description>
     </item>
     <item>
-      <title>Pythons</title>
-      <link>/python/</link>
-      <pubDate>Sat, 12 Mar 2022 18:10:08 +0800</pubDate>
-      <guid>/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Posts</title>
-      <link>/post/</link>
-      <pubDate>Wed, 02 Mar 2022 23:34:24 +0800</pubDate>
-      <guid>/post/</guid>
-      <description></description>
+      <title>Website</title>
+      <link>/website/</link>
+      <pubDate>Sat, 19 Mar 2022 13:13:12 +0800</pubDate>
+      <guid>/website/</guid>
+      <description> My first HackMD note (change me!) Python request HTML SCRAPY ES6 ES6版选项卡 Promise对象 块级作用域 字符串模版 面对对象 JavaScript Variable elevation; Event bubble; Prototype  </description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ES6 on DSF</title>
+    <link>/website/es6/</link>
+    <description>Recent content in ES6 on DSF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 02 Mar 2022 23:34:24 +0800</lastBuildDate><atom:link href="/website/es6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ES6版选项卡</title>
+      <link>/website/es6/es6-demo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/website/es6/es6-demo/</guid>
+      <description>ES6 AJAX function ajax(url){return new Promise((succ,error)=&amp;gt;{var ajax= new XMLHttpRequest();ajax.open(&#39;get&#39;,url,true);ajax.send;ajax.onload=function(){succ(ajsx.responseText);};ajax.onerror=function(){error();};}).then((text)=&amp;gt;{cosole.log(text);}).catch(()=&amp;gt;{console.log(1);})}</description>
+    </item>
+    <item>
+      <title>Promise对象</title>
+      <link>/website/es6/es6-promise%E5%AF%B9%E8%B1%A1/</link>
+      <pubDate>Wed, 02 Mar 2022 23:34:24 +0800</pubDate>
+      <guid>/website/es6/es6-promise%E5%AF%B9%E8%B1%A1/</guid>
+      <description>Promise promise是个对象
+只要触发就完成了任务结束生命周期。 可以无限回调
+new Promise(function(Resolved,Reject){Resolved();}).then(function(){alert(&#39;成功&#39;)},function(){alert(&#39;失败&#39;)})function showPromise(res){return new Promise((resolve,reject)=&amp;gt;{resolved(res)}).then ((x)=&amp;gt;{console.log(x)},()=&amp;gt;{})}showPromise(&#39;yours&#39;);实现点击显示循环
+let index=0;ipt.onclick=x=&amp;gt;{index++;new Promise((succ,error)=&amp;gt;{index%2==1?succ();error();}).then(()=&amp;gt;{div1.style.display=&#39;none&#39;;},()=&amp;gt;{div1.style.display=&#39;block&#39;;})};then(成功函数).catch(失败函数)
+throw 抛出异常
+race 竞速方法 只看第一个执行完成的promise
+all 要不然就是全胜要么全部失败，全部成功就全部输出
+Webwork </description>
+    </item>
+    <item>
+      <title>块级作用域</title>
+      <link>/website/es6/es6%E7%BB%93%E6%9E%84%E8%B5%8B%E5%80%BC/</link>
+      <pubDate>Wed, 02 Mar 2022 23:34:24 +0800</pubDate>
+      <guid>/website/es6/es6%E7%BB%93%E6%9E%84%E8%B5%8B%E5%80%BC/</guid>
+      <description>解决密封空间的问题
+&amp;lt;input value=&amp;quot;1&amp;quot; type=&#39;button&#39;&amp;gt;&amp;lt;input value=&amp;quot;2&amp;quot; type=&amp;quot;button&amp;quot;&amp;gt;&amp;lt;input value=&amp;quot;3&amp;quot; type=&amp;quot;button&amp;quot;&amp;gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;let allInput=document.getElementsByTagName(&#39;input&#39;);// for(var i=0;i&amp;lt;allInput.length;i++){// // allInput[i].onclick=function(){// // alert(i)// // // 赋予对象点击事件，点击的瞬间i已循环完毕，返回值都是3// (function(x){// console.log(x)// })(i)// //匿名函数，函数的参数直接传递,相当于同时生成3个匿名函数// }//for(let i=0;i&amp;lt;allInput.length;i++){allInput[i].onclick=function(){console.log(i);}}&amp;lt;/script&amp;gt;结构赋值 json需要使用键值赋值
+let [a,b,c,d]=jason;console.log(a,b,c,d)Bind 任何函数都可以用call调用自己，第一个参数是this，第二个参数是形参,不会调用自己，使用需要（）。</description>
+    </item>
+    <item>
+      <title>字符串模版</title>
+      <link>/website/es6/es6%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%A8%A1%E6%9D%BF/</link>
+      <pubDate>Wed, 02 Mar 2022 23:34:24 +0800</pubDate>
+      <guid>/website/es6/es6%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%A8%A1%E6%9D%BF/</guid>
+      <description>字符串可以放入参数，传参 function show(n){var json=(f:20,k:30)return json;};var string =&#39;show the return is ${show().f}&#39;console.log(string)数组的map
+map 用法和find/findIndex一样，会返回大数组标签模板 模板字符串嵌套 createNode=json=&amp;gt;`&amp;lt;div class=outNode&amp;gt;${json.topValue.map((v)=&amp;gt;`&amp;lt;input type=button value=${v}&amp;gt;`).join(&#39;&#39;)}${json.bottommInner.map((v)=&amp;gt;`&amp;lt;div&amp;gt;${v}&amp;lt;/div&amp;gt;`).join(&#39;&#39;)}&amp;lt;/div&amp;gt;document.body.innerHTML=createNode(jsonData) `字符串的string.raw()方法 转义直接输出\\n
+number篇 二进制 0b后加二进制，反写
+特殊运算 位运算/次方运算 3&amp;laquo;2 //3* 2 *2
+方法篇 SET() var set=new Set();set.add(1);set.add(2);console.log(Set.prototype)console.log(set.has(5))const $=&amp;gt;obj=&amp;gt;[...document.querySelector(obj)];var allDiv= new Set($(&#39;.outNode&amp;gt;div&#39;));//找到所有outNode下的divconsole.log(allDiv)MAP() var mapNode= new Map();mapNode.set(&#39;a&#39;,&#39;thin&#39;);mapNode.set(&#39;b&#39;,&#39;fat&#39;);mapNode.set(&#39;c&#39;,&#39;rich&#39;);console.</description>
+    </item>
+    <item>
+      <title>面对对象</title>
+      <link>/website/es6/es6%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</link>
+      <pubDate>Wed, 02 Mar 2022 23:34:24 +0800</pubDate>
+      <guid>/website/es6/es6%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</guid>
+      <description>类 window-string-substring/indexof(方法) -number-tostring
+[1,2,3].constructor 精准告诉你什么类 Array.prototype 告诉你类的原型 Object.prototype.a=10 所有的类都等于10 Object.prototype.toString.call([1,2,3]) 返回查询对应的类
+Array.prototype.split=function(){} 给原型类添加方法后下面代码才能正常运行 var a=[&amp;lsquo;afd&amp;rsquo;]; console.log(a.spilt(&#39;&#39;))
+String.prototype.split.call(a) 这个能返回a自己，可以使用所有的方法
+ES6class a{contructor(){写类的方法this.x=10;console.log(this.x)}};new a();原型 原型链 _proto_
+面向对象继承 继承 extends super
+class show(){constructor(l){this.x=l;}定义一个show的class并指定方法，让x赋值为1，自由属性m(){alert(this.x);}类中定义的方法}new show(1).m();如何继承showclass me extends show{constructor(l){super(l)}}class继承方法，super继承thisnew me(1).m();</description>
+    </item>
+  </channel>
+</rss>

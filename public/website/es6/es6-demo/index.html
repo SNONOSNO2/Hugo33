@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.92.2" />
+    <meta name="generator" content="Relearn 3.0.4&#43;tip">
+    <meta name="description" content="">
+    <title>ES6版选项卡 :: DSF</title>
+    <link rel="icon" href="/images/favicon.png?1651045119" type="image/png">
+    <link href="/css/nucleus.css?1651045119" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1651045119" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1651045119" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1651045119" rel="stylesheet">
+    <link href="/css/auto-complete.css?1651045119" rel="stylesheet">
+    <link href="/css/theme.css?1651045119" rel="stylesheet">
+    <link id="variant-style" href="/css/theme-gobolinux.css?1651045119" rel="stylesheet">
+    <link href="/css/variant.css?1651045119" rel="stylesheet">
+    <link href="/css/theme-relearn-light.css?1651045119" rel="stylesheet" media="print">
+    <link href="/css/print.css?1651045119" rel="stylesheet" media="print">
+    <style>
+    </style>
+    <script src="/js/variant.js?1651045119"></script>
+    <script>
+      variants.init( [ "gobolinux", "relearn-light", "relearn-dark", "neon", "blue", "green", "learn" ] );
+    </script>
+    <script src="/js/jquery.min.js?1651045119"></script>
+  </head>
+  <body class="default-animation" data-url="/website/es6/es6-demo/">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div class="navigation">
+              <a class="nav nav-next" href="/website/es6/es6-promise%E5%AF%B9%E8%B1%A1/" title="Promise对象"><i class="fas fa-chevron-right fa-fw"></i></a>
+          </div>
+          <div class="navigation">
+              <a class="nav nav-prev" href="/website/es6/" title="ES6"><i class="fas fa-chevron-left fa-fw"></i></a>
+          </div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='Menu'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='Table of Contents'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <meta itemprop="itemListOrder" content="Descending" />
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="4" /><a itemprop="item" href="/"><span itemprop="name">Wiki</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="3" /><a itemprop="item" href="/website/"><span itemprop="name">Website</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="/website/es6/"><span itemprop="name">ES6</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="/website/es6/es6-demo/" aria-disabled="true"><span itemprop="name">ES6版选项卡</span></a></li>
+            </ol>
+          </div>
+            <div class="progress">
+              <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#es6-ajax">ES6 AJAX</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+              </div>
+            </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable ">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+<div class="tags">
+  <a class="tag-link" href="/tags/es6">ES6</a>
+</div>
+          </div>
+          <h1>ES6版选项卡</h1>
+
+<h3 id="es6-ajax">ES6 AJAX</h3>
+<pre tabindex="0"><code>function ajax(url){
+  return new Promise((succ,error)=&gt;{
+    var ajax= new XMLHttpRequest();
+    ajax.open('get',url,true);
+    ajax.send;
+    ajax.onload=function(){
+      succ(ajsx.responseText);
+    };
+    ajax.onerror=function(){
+      error();
+    };
+    }).then((text)=&gt;{
+      cosole.log(text);
+      }).catch(()=&gt;{
+        console.log(1);
+        })
+}
+</code></pre>          <footer class="footline">
+          </footer>
+        </div>
+      </main>
+    </div>
+    <!-- hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic: -->
+    <!-- https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72 -->
+    <script>
+      var index_url="/index.json";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+    </script>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+<link rel="icon" href="/images/favicon.bmp" type="image/bmp" />
+ 
+
+
+<a id="logo" href="/" style=" color:#ffffff; font-size:30px;"><img src="/images/favicon.png"  height="50" width="50"/>Biology Notes</a>
+        </div>
+        <div class="searchbox default-animation">
+          <label for="search-by"><i class="fas fa-search"></i></label>
+          <input data-search-input id="search-by" type="search" placeholder="Search...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script src="/js/lunr.min.js?1651045119"></script>
+        <script src="/js/auto-complete.js?1651045119"></script>
+        <script src="/js/search.js?1651045119"></script>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics">
+          <li data-nav-id="/structure/" title="Structure" class="dd-item alwaysopen"><a href="/structure/"><b>01 </b>Structure</a><ul>
+          <li data-nav-id="/structure/classa-and-classb/" title="Structural insights into differences in G protein activation by family A and family B GPCRs" class="dd-item"><a href="/structure/classa-and-classb/"><b>1 </b>Structural insights into differences in G protein activation by family A and family B GPCRs</a></li>
+          <li data-nav-id="/structure/gtp-turnover-assay/" title="GTPase-activating proteins (GAP) accelerate the GTP hydrolysis mediated by GTPases" class="dd-item"><a href="/structure/gtp-turnover-assay/"><b>2 </b>GTPase-activating proteins (GAP) accelerate the GTP hydrolysis mediated by GTPases</a></li>
+          <li data-nav-id="/structure/m3-muscarinic-acetylcholine-receptors-overview/" title="M3 Muscarinic Acetylcholine Receptors Overview" class="dd-item"><a href="/structure/m3-muscarinic-acetylcholine-receptors-overview/"><b>3 </b>M3 Muscarinic Acetylcholine Receptors Overview</a></li>
+          <li data-nav-id="/structure/m3-help-insulin/" title="M3-muscarinic receptor promotes insulin release via receptor phosphorylation/arrestin-dependent activation of protein kinase D1" class="dd-item"><a href="/structure/m3-help-insulin/"><b>4 </b>M3-muscarinic receptor promotes insulin release via receptor phosphorylation/arrestin-dependent activation of protein kinase D1</a></li>
+          <li data-nav-id="/structure/barr/" title="b-arrestin overview" class="dd-item"><a href="/structure/barr/"><b>5 </b>b-arrestin overview</a></li>
+          <li data-nav-id="/structure/functional-sdab-panning/" title="sdAb panning" class="dd-item"><a href="/structure/functional-sdab-panning/"><b>6 </b>sdAb panning</a></li>
+          <li data-nav-id="/structure/associate-assays/" title="Assays" class="dd-item"><a href="/structure/associate-assays/"><b>1.1 </b>Assays</a></li>
+          <li data-nav-id="/structure/assays-sup/" title="Assays Sup" class="dd-item"><a href="/structure/assays-sup/"><b>1.2 </b>Assays Sup</a></li></ul></li>
+          <li data-nav-id="/website/" title="Website" class="dd-item parent alwaysopen"><a href="/website/"><b>02 </b>Website</a><ul>
+          <li data-nav-id="/website/my-first-hackmd-note-change-me/" title="My first HackMD note (change me!)" class="dd-item"><a href="/website/my-first-hackmd-note-change-me/">My first HackMD note (change me!)</a></li>
+          <li data-nav-id="/website/python/" title="Python" class="dd-item alwaysopen"><a href="/website/python/">Python</a><ul>
+          <li data-nav-id="/website/python/3.26how-to-request-html/" title="request HTML" class="dd-item"><a href="/website/python/3.26how-to-request-html/">request HTML</a></li>
+          <li data-nav-id="/website/python/scrapy/" title="SCRAPY" class="dd-item"><a href="/website/python/scrapy/">SCRAPY</a></li></ul></li>
+          <li data-nav-id="/website/es6/" title="ES6" class="dd-item parent alwaysopen"><a href="/website/es6/">ES6</a><ul>
+          <li data-nav-id="/website/es6/es6-demo/" title="ES6版选项卡" class="dd-item active"><a href="/website/es6/es6-demo/">ES6版选项卡</a></li>
+          <li data-nav-id="/website/es6/es6-promise%E5%AF%B9%E8%B1%A1/" title="Promise对象" class="dd-item"><a href="/website/es6/es6-promise%E5%AF%B9%E8%B1%A1/">Promise对象</a></li>
+          <li data-nav-id="/website/es6/es6%E7%BB%93%E6%9E%84%E8%B5%8B%E5%80%BC/" title="块级作用域" class="dd-item"><a href="/website/es6/es6%E7%BB%93%E6%9E%84%E8%B5%8B%E5%80%BC/">块级作用域</a></li>
+          <li data-nav-id="/website/es6/es6%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%A8%A1%E6%9D%BF/" title="字符串模版" class="dd-item"><a href="/website/es6/es6%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%A8%A1%E6%9D%BF/">字符串模版</a></li>
+          <li data-nav-id="/website/es6/es6%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/" title="面对对象" class="dd-item"><a href="/website/es6/es6%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/">面对对象</a></li></ul></li>
+          <li data-nav-id="/website/javascript/" title="JavaScript" class="dd-item alwaysopen"><a href="/website/javascript/">JavaScript</a><ul>
+          <li data-nav-id="/website/javascript/%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87/" title="Variable elevation; Event bubble; Prototype" class="dd-item"><a href="/website/javascript/%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87/">Variable elevation; Event bubble; Prototype</a></li></ul></li></ul></li>
+        </ul>
+        <div id="shortcuts">
+          <div class="nav-title">More</div>
+          <ul>
+            <li><a class="padding" href="/tags"><i class='fas fa-tags'></i> Tags</a></li>
+          </ul>
+        </div>
+        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>
+        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"/>
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showVariantSwitch">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch showVariantSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-variant" onchange="variants.changeVariant( this.value );">
+                    <option id="gobolinux" value="gobolinux" selected>Gobolinux</option>
+                    <option id="relearn-light" value="relearn-light">Relearn Light</option>
+                    <option id="relearn-dark" value="relearn-dark">Relearn Dark</option>
+                    <option id="neon" value="neon">Neon</option>
+                    <option id="blue" value="blue">Blue</option>
+                    <option id="green" value="green">Green</option>
+                    <option id="learn" value="learn">Learn</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+              <script>variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><a class="padding" href="#" data-clear-history-toggle=""><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter">
+
+<p>© 2002-2022 p7pper356.top</p>
+<p><i class="fab fa-creative-commons-sa"></i> CC BY-SA 3.0</p>
+<p>Built with <a href="https://github.com/Serenata248/Hugo33"><i class="fas fa-heart"></i></a> by Pepper</p>
+
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1651045119"></script>
+    <script src="/js/perfect-scrollbar.min.js?1651045119"></script>
+    <script src="/js/jquery.svg.pan.zoom.js?1651045119"></script>
+    <script src="/js/featherlight.min.js?1651045119"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1651045119"></script>
+    <script src="/js/mermaid.min.js?1651045119"></script>
+    <script>
+      if (typeof mermaid != 'undefined' && typeof mermaid.mermaidAPI != 'undefined') {
+        mermaid.mermaidAPI.initialize( Object.assign( { "securityLevel": "antiscript" }, JSON.parse("{ \"startOnLoad\": true }"), { startOnLoad: false } ) );
+      }
+    </script>
+    <script>
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+    </script>
+    <script src="/js/theme.js?1651045119"></script>
+  </body>
+</html>

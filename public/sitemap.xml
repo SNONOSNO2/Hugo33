@@ -1,16 +1,103 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>en/sitemap.xml</loc>
-    
-      <lastmod>2022-03-19T13:13:12+08:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>pir/sitemap.xml</loc>
-    
-  </sitemap>
-  
-</sitemapindex>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/structure/</loc>
+    <lastmod>2022-04-26T13:13:12+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/structure/classa-and-classb/</loc>
+    <lastmod>2022-03-19T13:13:12+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/structure/gtp-turnover-assay/</loc>
+    <lastmod>2022-03-19T13:13:12+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/website/</loc>
+    <lastmod>2022-03-19T13:13:12+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/structure/m3-muscarinic-acetylcholine-receptors-overview/</loc>
+    <lastmod>2022-03-12T12:00:36+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/structure/m3-help-insulin/</loc>
+    <lastmod>2022-03-19T13:13:12+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/structure/barr/</loc>
+    <lastmod>2022-03-19T13:13:12+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/structure/functional-sdab-panning/</loc>
+    <lastmod>2022-04-26T13:13:12+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/website/es6/es6-demo/</loc>
+  </url>
+  <url>
+    <loc>/</loc>
+    <lastmod>2022-04-26T13:13:12+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/structure/associate-assays/</loc>
+    <lastmod>2022-03-19T13:13:12+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/structure/assays-sup/</loc>
+    <lastmod>2022-03-19T13:13:12+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/website/my-first-hackmd-note-change-me/</loc>
+    <lastmod>2022-03-19T13:13:12+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/website/python/</loc>
+    <lastmod>2022-03-12T18:10:08+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/website/python/3.26how-to-request-html/</loc>
+    <lastmod>2022-03-12T18:10:08+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/website/python/scrapy/</loc>
+    <lastmod>2022-03-12T18:10:08+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/website/es6/</loc>
+    <lastmod>2022-03-02T23:34:24+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/website/javascript/</loc>
+    <lastmod>2022-03-02T23:34:24+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/website/es6/es6-promise%E5%AF%B9%E8%B1%A1/</loc>
+    <lastmod>2022-03-02T23:34:24+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/website/javascript/%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87/</loc>
+    <lastmod>2022-03-02T23:34:24+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/website/es6/es6%E7%BB%93%E6%9E%84%E8%B5%8B%E5%80%BC/</loc>
+    <lastmod>2022-03-02T23:34:24+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/website/es6/es6%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%A8%A1%E6%9D%BF/</loc>
+    <lastmod>2022-03-02T23:34:24+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/website/es6/es6%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</loc>
+    <lastmod>2022-03-02T23:34:24+08:00</lastmod>
+  </url>
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  <url>
+    <loc>/tags/es6/</loc>
+  </url>
+  <url>
+    <loc>/tags/</loc>
+  </url>
+</urlset>
