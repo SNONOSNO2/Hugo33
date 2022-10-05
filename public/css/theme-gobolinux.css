@@ -1,0 +1,228 @@
+/* Main color scheme */
+:root {
+    /* General */
+    --BOX-BLUE-color: #FFB13D; /* background color of blue boxes */
+  --BOX-GREEN-color: #643DFF; /* background color of green boxes */
+  --CODE-BLOCK-BORDER-color: #d8d8d8; /* border color of block code */
+  --CODE-INLINE-BORDER-color: #f8e8c8; /* border color of inline code */
+  --MAIN-LINK-color: #FF643D; /* link color of content */
+  --MAIN-LINK-HOVER-color: #643DFF; /* hoverd link color of content */
+  --MENU-HEADER-BG-color: #F57A00; /* background color of menu header */
+  --MENU-HEADER-BORDER-color: #FFB13D; /* separator color of menu header */
+  --MENU-SEARCH-BORDER-color: #e0e0e0; /* border color of search box */
+
+
+
+    --MAIN-TEXT-color:  #282a36; /* Color of text by default */
+    --MAIN-TITLES-TEXT-color: #4a4a4a; /* Color of titles h2-h3-h4-h5-h6 */
+    --MAIN-ANCHOR-color: #134fbf; /* color of anchors on titles */
+    --MAIN-BG-color: #ffffff; /* color of text by default */
+
+    /* adjusted to relearn-light chroma style */
+    --CODE-BLOCK-color: #000000; /* fallback color for block code text */
+    --CODE-BLOCK-BG-color: #f8f8f8; /* fallback color for block code background */
+
+
+    --CODE-INLINE-color: #5e5e5e; /* color for inline code text */
+    --CODE-INLINE-BG-color: #fffae9; /* color for inline code background */
+
+    --MENU-HOME-LINK-color: #323232; /* Color of the home button text */
+    --MENU-HOME-LINK-HOVER-color: #808080; /* Color of the hovered home button text */
+
+
+    --MENU-SEARCH-color: #e0e0e0; /* Color of search field text */
+    --MENU-SEARCH-BG-color: #323232; /* Search field background color (by default borders + icons) */
+    --MENU-SEARCH-BORDER-color: #e0e0e0; /* Override search field border color */
+
+    --MENU-SECTIONS-ACTIVE-BG-color: #F57A00; /* Background color of the active section and its children */
+    --MENU-SECTIONS-BG-color: #FFB13D; /* Background color of other sections */
+    --MENU-SECTIONS-LINK-color: #323232; /* Color of links in menu */
+    --MENU-SECTIONS-LINK-HOVER-color: #5e5e5e;  /* Color of links in menu, when hovered */
+    --MENU-SECTION-ACTIVE-CATEGORY-color: #323232; /* Color of active category text */
+    --MENU-SECTION-ACTIVE-CATEGORY-BG-color:  #fffae9; /* Color of background for the active category (only) */
+
+    --MENU-VISITED-color: #506397; /* Color of 'page visited' icons in menu */
+    --MENU-SECTION-HR-color: #606060; /* Color of <hr> separator in menu */
+
+    /* base styling for boxes */
+    --BOX-CAPTION-color: rgba( 255, 255, 255, 1 ); /* color of the title text */
+    --BOX-BG-color: rgba( 255, 255, 255, .833 ); /* color of the content background */
+    --BOX-TEXT-color: rgba( 16, 16, 16, 1 ); /* fixed color of the content text */
+
+    /* Headlines */
+    --MAIN-TITLES-H1-color: #282a36; /* Color of h1 headlines */
+    --MAIN-TITLES-H2-color: #282a36; /* Color of h2 headlines */
+    --MAIN-TITLES-H3-color: #282a36; /* Color of h3 headlines */
+    --MAIN-TITLES-H4-color: #323232; /* Color of h4 headlines */
+    --MAIN-TITLES-H5-color: #323232; /* Color of h5 headlines */
+    --MAIN-TITLES-H6-color: #323232; /* Color of h6 headlines */
+
+
+}
+
+/* General */
+html {
+    font-size: 20px;
+}
+
+body {
+    font-family: "Public Sans";
+    font-size: 0.85rem;
+    letter-spacing: -0.015rem;
+}
+
+#body-inner {
+    padding: 0 2rem 4rem 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Metropolis";
+}
+
+body h1 {
+    font-size: 2rem;
+    text-transform: unset;
+}
+
+body h2 {
+    font-size: 1.8rem !important;
+}
+
+body h3 {
+    font-size: 1.4rem !important;
+}
+
+body h4 {
+    font-size: 1.3rem !important;
+}
+
+body h5 {
+    font-size: 1.2rem !important;
+}
+
+body h6 {
+    font-size: 1.1rem !important;
+}
+
+#body a.highlight:after {
+    height: unset;
+}
+
+#body a:hover {
+    text-shadow: 0 0 0.4rem var(--MAIN-LINK-color);
+}
+
+/* Sidebar */
+#sidebar {
+    font-size: 0.75rem;
+}
+
+#sidebar .nav-title {
+    text-transform: unset;
+    padding-top: 1rem;
+}
+
+#header-wrapper,
+#sidebar hr {
+    border-bottom: unset;
+}
+
+/* Footer */
+#footer {
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+    font-size: 0.65rem;
+    text-align: center;
+}
+
+#footer p {
+    margin: 0;
+}
+
+/* Inline code & code blocks */
+pre code {
+    white-space: pre;
+}
+
+code {
+    font-family: "Fira Code";
+    /* Disable borders for inline code completely.
+    If desired, comment the line below and set 
+       border-color instead. */
+    border: 0;
+}
+
+/* Searchbox icon color */
+.searchbox label,
+.searchbox span {
+    color: var(--MENU-SEARCH-BOX-ICONS-color);
+}
+
+/* Custom Copy-to-clipboard button style in code blocks */
+pre .copy-to-clipboard-button {
+    border-radius: 1rem;
+    border-color: #00000000 !important;
+    color: #000 !important;
+    font-size: 110%;
+    padding: 4px 2px 3px 22px;
+    right: 0.65rem;
+    top: 0.55rem;
+}
+
+pre .copy-to-clipboard-button:hover {
+    background-color: #fff !important;
+}
+
+/* Notices */
+.notices pre {
+    background-color: #141414 !important;
+}
+
+/* Fonts */
+/* Main font */
+@font-face {
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 300;
+    src: url("/fonts/PublicSans-Light.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: url("/fonts/PublicSans-SemiBold.woff2") format("woff2");
+    font-display: swap;
+}
+
+/* Headline font */
+@font-face {
+    font-family: "Metropolis";
+    font-style: normal;
+    font-weight: 500;
+    src: url("/fonts/metropolis-bold-webfont.woff2") format("woff2");
+    font-display: swap;
+}
+
+/* Code font */
+@font-face {
+    font-family: "Fira Code";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/FiraCode-Regular.ttf") format("truetype");
+    font-display: swap;
+}
+
+/* @font-face {
+    font-family: 'Lode Sans Mono';
+    font-style: normal;
+    font-weight: 300;
+    src: url("/fonts/LodeSansMono.otf") format("opentype");
+    font-display: swap;
+} */

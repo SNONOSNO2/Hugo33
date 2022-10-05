@@ -1,21 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Structures on DSF</title>
+    <title>Structure on DSF</title>
     <link>/structure/</link>
-    <description>Recent content in Structures on DSF</description>
+    <description>Recent content in Structure on DSF</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 19 Mar 2022 13:13:12 +0800</lastBuildDate><atom:link href="/structure/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Apr 2022 13:13:12 +0800</lastBuildDate><atom:link href="/structure/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ClassA and ClassB</title>
+      <title>Structural insights into differences in G protein activation by family A and family B GPCRs</title>
       <link>/structure/classa-and-classb/</link>
       <pubDate>Sat, 19 Mar 2022 13:13:12 +0800</pubDate>
       <guid>/structure/classa-and-classb/</guid>
-      <description>Structural insights into differences in G protein activation by family A and family B GPCRs A class和B class的GPCRs如何不同样激活G蛋白
+      <description>A class和B class的GPCRs如何不同样激活G蛋白
 heterotrimeric guanine nucleotide–binding protein (G protein) 异源三聚体鸟苷酸结合蛋白
 GPCR激活hallmark： outward movement of the cytoplasmic end of transmembrane domain 6 (TM6)，opens up an intracellular cavity to accommodate the Gα subunit 在细胞质的TM6跨膜区会向外扩展，打开了一个细胞内的空腔来容纳Ga亚基。
 A/B GPCRs的差别：
-In family B GPCRs, TM6 shows a disruption of the helical fold and the formation of a sharp kink. This differs from the gradual bending in TM6 observed in family A GPCRs.</description>
+In family B GPCRs, TM6 shows a disruption of the helical fold and the formation of a sharp kink. This differs from the gradual bending in TM6 observed in family A GPCRs. Class B的TM6会有螺旋折叠的破坏和尖锐扭结的形成(需要更多的能量)，而class A的TM6仅仅只是逐渐弯曲。
+Class B的GPCR缺少class A有的保守的结构motif，conserved structural motifs and conformational switches.</description>
+    </item>
+    <item>
+      <title>GTPase-activating proteins (GAP) accelerate the GTP hydrolysis mediated by GTPases</title>
+      <link>/structure/gtp-turnover-assay/</link>
+      <pubDate>Sat, 19 Mar 2022 13:13:12 +0800</pubDate>
+      <guid>/structure/gtp-turnover-assay/</guid>
+      <description>GTP酶激活蛋白加速GTP水解。 The GTPase cycle
+G蛋白激活需要结合上GTP。GPCR激活表现出GEF活性就是一个消耗GTP的过程。 在这个过程中加入ADP，会使没有被消耗的GTP转化为ATP。这是两个竞争性结合游离磷酸的过程。然后通过将ATP的信号转换为荧光信号进行检测。 也就是说，GTP消耗的越多，剩下的ATP就越少，检测的荧光越弱，说明GPCR的活性更高。
+GEFs help in loading of GDP-bound inactive GTPases(G protein) with GTP. The GEF buffer contains higher amounts of free Mg2+, and as a consequence, the nucleotide loading is catalyzed solely by GEFs.
+可以检测Intrinsic GTPase 、GAP-Stimulated GTPase、GAP Activity 、GEF Activity.
+GTPase/GAP Buffer: To perform a GAP activity assay, be sure to include the cognate GTPase.要进行 GAP 活性测定，请务必包含同源 GTPase。
+GEF Buffer: To perform a GEF activity assay, be sure to include the cognate GTPase and GAP.</description>
     </item>
     <item>
       <title>M3 Muscarinic Acetylcholine Receptors Overview</title>
@@ -31,6 +44,64 @@ SAR, structure–activity relationship
   为一组化学品（即因变量）提供活性（通常通过实验测量）的数据集。这组化学品通常由一些选择标准定义。因变量通常是可监测活性。
   同一组化学品的结构标准或与结构相关的特性数据集（即自变量）。自变量通常是结构属性。
   关联这两个数据数组的方法（通常是统计分析方法）。将结构与活动联系起来的方法范围从简单的线性回归，到更复杂的方法（例如偏最小二乘分析），再到最复杂的机器学习技术（例如神经网络）。</description>
+    </item>
+    <item>
+      <title>M3-muscarinic receptor promotes insulin release via receptor phosphorylation/arrestin-dependent activation of protein kinase D1</title>
+      <link>/structure/m3-help-insulin/</link>
+      <pubDate>Sat, 19 Mar 2022 13:13:12 +0800</pubDate>
+      <guid>/structure/m3-help-insulin/</guid>
+      <description>PKD1（protein kinase C-like serine/threonine kinase）  胰岛上表达的M3-毒蕈碱受体通过受体磷酸化/抑制蛋白依赖性信号传导调节葡萄糖稳态。这个过程以蛋白激酶D1的激活为中心，该激酶在β-抑制蛋白募集到磷酸化的M3-毒蕈碱受体的下游起作用。
+M3-毒蕈碱受体在激动剂占据后被一系列蛋白激酶快速磷酸化，这些蛋白激酶包括 GPCR 激酶 (GRK) 家族成员，以及酪蛋白激酶 1α 和蛋白激酶 CK2 。
+受体磷酸化会调节 glucose-dependent insulin release from pancreatic islets, a response that is known to be augmented by para-sympathetic pathways （副交感神经通路）acting on M3-muscarinic receptors expressed on pancreatic β-cells。
+Characterization of a Phosphorylation-Deficient Mutant M3-Muscarinic Receptor. 通过同位素[32P]orthophosphate检测磷酸化，发现磷酸化缺陷小鼠b-arrestin降低，但是不影响Gq响应Ca2+增加。
+乙酰甲胆碱刺激的 [3H] 肌醇磷酸形成在M3敲除的小鼠中完全不存在。M3R-KI (Knock In)小鼠胰岛的乙酰甲胆碱刺激产生与野生型胰岛观察到的相似的反应.
+M3-Muscarinic Receptor Phosphorylation Regulates Insulin Release from Isolated Pancreatic Islets. M3受体的磷酸化调控胰岛的胰岛素释放。
+Disrupted Coupling of the M3-Muscarinic Receptor to PKD1 Underlies the Deficiency in Insulin Release in M3R-KI Mice.</description>
+    </item>
+    <item>
+      <title>b-arrestin overview</title>
+      <link>/structure/barr/</link>
+      <pubDate>Sat, 19 Mar 2022 13:13:12 +0800</pubDate>
+      <guid>/structure/barr/</guid>
+      <description>Abbreviations
+cAMP cyclic adenosine monophosphate GPCRs G protein-coupled receptors GRK G protein-coupled receptor kinase ICL intracellular loop Nb32 nanobody 32 Nb35 nanobody 35 TM transmembrane helix V2R vasopressin receptor type 2 V2T V2R tail β2AR β2 adrenergic receptor βarr beta-arrestin 2017- Muscarinic receptor regulates extracellular signal regulated kinase by two modes of arrestin binding 毒蕈碱乙酰胆碱受体通过两种arrestin结合的方式调节细胞外信号调节激酶 Arrestin既可以在GPCR蛋白激酶磷酸化后触发脱敏和内吞作用，也可以招募和调节细胞外信号调节激酶（ERK）级联的活性。
+β-arrestin 以两种不同的结合模式（瞬时和稳定）与 M1 毒蕈碱乙酰胆碱受体 (M1Rs) 结合。在任何一种结合模式下都检测到抑制蛋白中类似的分子内构象变化。
+当与磷酸化 M1R 稳定结合时，β-arrestin 支架并激活 MEK 依赖性 ERK。相反，当瞬时结合时，β-arrestin 通过募集蛋白磷酸酶降低 ERK 活性。所有这些 ERK 信号都在质膜上发展。</description>
+    </item>
+    <item>
+      <title>sdAb panning</title>
+      <link>/structure/functional-sdab-panning/</link>
+      <pubDate>Tue, 26 Apr 2022 13:13:12 +0800</pubDate>
+      <guid>/structure/functional-sdab-panning/</guid>
+      <description>高通量筛选G蛋白偶联受体的功能性抗体 combining glycosylphosphatidylinositol-anchored antibody cell display with β-arrestin recruitment-based cell sorting and screening.将糖基磷脂酰肌醇锚定抗体细胞展示与基于 β-arrestin 募集的细胞分选和筛选相结合。
+抗体基因型与表型；GPI 和 GPCR 在脂筏中的共定位促进了 GPI 锚定抗体与 GPCR 靶点的相互作用
+免疫抗体库中鉴定出一组针对人类 apelin 受体的抗体拮抗剂和抗体激动剂来验证该方法。 相比之下，噬菌体展示仅从相同的库中获得了中性结合剂和抗体拮抗剂
+sdAb GPI-anchored sdAb library (1 × 108 cells） apelin 13: 100nM 激动剂 460nm 530nm代表 产物/substrate：越低越好 1、APJ PathHunter assay 阳性clone的可溶性sdAbs有抑制剂活性
+2、PathHunter β-arrestin reporter assay 不适合筛选表面抗体的细胞文库，洗完之后没有fluorescent substrate for the reporter enzyme nor the product resides in the cells
+3、Tango/APJ β-arrestin assay β-内酰胺酶报告酶水解前后细胞中保留荧光底物
+POC study：APJ gene is stably integrated into the genome, as well as a transcription factor linked to the C-terminus of APJ through a tobacco etch virus (TEV) protease site.</description>
+    </item>
+    <item>
+      <title>Assays</title>
+      <link>/structure/associate-assays/</link>
+      <pubDate>Sat, 19 Mar 2022 13:13:12 +0800</pubDate>
+      <guid>/structure/associate-assays/</guid>
+      <description>Bodipy-GTPγS GCGR结合GTP慢一些
+a non-hydrolyzable fluorescently labeled GTP analog, which is self- quenched in solution. 不可水解的荧光标记GTP类似物
+nucleotide-free receptor complexes 核苷酸free受体复合物
+GCGR shows a slower Bodipy-GTPγS (kon = 0.001 s−1) binding rate compared with the β2AR (kon = 0.003s−1)，说明 efficiency of GDP release and GTP binding are significantly reduced.
+Förster resonance energy transfer (FRET) GCGR结合Gs比b2慢一些
+监测GPCR-Gs结合：
+Cy3B-labeled GCGR (red) / Cy3B-labeled β2AR (blue) Sulfo-Cy5-labeled Gs  间发生荧光能量共振转移
+G protein association rate for GCGR with an association rate constant (kon) of 0.</description>
+    </item>
+    <item>
+      <title>Assays Sup</title>
+      <link>/structure/assays-sup/</link>
+      <pubDate>Sat, 19 Mar 2022 13:13:12 +0800</pubDate>
+      <guid>/structure/assays-sup/</guid>
+      <description>PDB 隐藏侧链 比对结构 align ClassA_gpr75_human_Active_7BU7_2021-11-02_GPCRdb, 3sn6 and chain R（指定受体） fetch 3sn6 align ClassA_gpr75_human_Active_7BU7_2021-11-02_GPCRdb, 7rmg and chain R（匹配的不好，NK1R helix8在膜上应该是水平而非翘起） create gfp, 3WLD and resi 59-302 （分离两个部分，可以隐藏其中一个）  β2AR-Gs (pink, PDB 3SN6) peptide ligand–free state of GCGR (Fab-bound GCGR, blue, PDB 5XEZ) partial agonist NNC1702-bound GCGR (orange, PDB 5YQZ) GCGR GDP-bound Gαs (green, PDB 6EG8) Comparison between the interaction of ICL2 of GCGR (cyan) and β2AR (pink) (PDB 3SN6)
+ 完全激活态 ZP3780 （GCGR-Gs） 特征：</description>
     </item>
   </channel>
 </rss>
